@@ -1,0 +1,7 @@
+INDEX VERSION 1.130+\\dt-srv-file1\Studentenhomes\bilal.bahjaoui\Documents\GitHub\Software_Project_2\.metadata\.plugins\org.eclipse.jdt.core
+948919066.index
+1012197361.index
+956752177.index
+3129114939.index
+2725782233.index
+2341309489.index
