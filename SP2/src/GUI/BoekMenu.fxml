@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="73.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="509.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="90.0" text="Log out" />
+      <Button layoutX="163.0" layoutY="85.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="273.0" text="Boeken overzicht" />
+      <Button layoutX="163.0" layoutY="121.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="273.0" text="Boeken zoeken op titel/auteur" />
+      <Button layoutX="163.0" layoutY="157.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="273.0" text="Boek toevoegen" />
+      <Button layoutX="163.0" layoutY="192.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="273.0" text="Terug" />
+   </children>
+</AnchorPane>
