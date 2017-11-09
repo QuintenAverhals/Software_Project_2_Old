@@ -1,5 +1,6 @@
 package login;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -160,5 +161,31 @@ public class LoginDao {
 		sessionfactory.close();
 		
 	}
+public List<Login> getALL() {
+		
+		
+		SessionFactory sessionfactory= new Configuration().configure().addAnnotatedClass(Login.class).buildSessionFactory();
+		Session session = sessionfactory.openSession();
+		session.beginTransaction();
+		
+		Query query= session.createQuery("from Login");
+		List<Login> users= query.list();
+		
+		session.getTransaction().commit();
+		session.close();
+		sessionfactory.close();
+		 
+		return users;
+	}
+
+public static void main(String[] args) {
+	Login login= new Login();
+	List<Login> loging= login.getALL();
+	for(int i= 0; i<loging.size();i++)
+	{
+		System.out.println(loging.get(i).toString());
+	}
+	
+}
 
 }
